@@ -3,34 +3,35 @@
     <head>
         <meta charset="utf-8">
         <title>Contacts</title>
+        <link rel="stylesheet" href="Css/styles.css">
     </head>
     <body>
         <h2>My social media</h2>
-        <ul>
-            <li><strong>E-mail: </strong>alanvazquezherrera@gmail.com</li>
-            <li><strong>Telephone: </strong>4611885013</li>
-        </ul>
-        <center><a href="https://www.instagram.com/alan_vh10/?next=%2F"><img src="Images\InstagramLogo.png" alt="InstagramLogo"></a></center>
-        <hr noshade>
-        <h2>Make a date with me</h2>
-        <form>
-            <label for="GET-name">Name</label>
-            <input type="text"><br>
-            <label for="GET-date">Date</label>
-            <input type="date"><br>
-            <label for="GET-time">Time</label>
-            <input type="time"><br>
-            <input type="submit">
-        </form>
-        <hr noshade color="blue" size="2">
+        <table cellspacing="10">
+            <tr>
+                <td>
+                <ul>
+                    <li><strong>E-mail: </strong>alanvazquezherrera@gmail.com</li>
+                    <li><strong>Telephone: </strong>4611885013</li>
+                </ul>
+                </td>
+                <td>
+                <a href="https://www.instagram.com/alan_vh10/?next=%2F"><img src="Images\InstagramLogo.png" alt="InstagramLogo"></a>
+                </td>
+            </tr>
+        </table>    
+        <hr>
         <h2>Your data</h2>
         <form>
+            <label for="GET-Name">Name</label>
+            <input type="text"><br>
             <label for="GET-telephone">Telephone</label>
             <input type="tel"><br>
             <label for="GET-email">E-mail</label>
             <input type="email"><br>
             <input type="submit">
         </form>
+        <hr>
         <form action="mailto:alanvazquezherrera@gmail.com" method="post" enctype="text/plain">
             <fieldset>
                 <legend>Send me a message</legend>
@@ -42,10 +43,6 @@
                 <input type="submit">
             </fieldset>
         </form>
-        <hr noshade>
-        <form action="index.html">
-            <input type="submit" name="GO-index" id="" value="Back">
-        </form>
-        <h4><strong><a href="index.html">Back</a></strong></h4>
+        <h3><a href="index.html">Back</a></h3>
     </body>
 </html>
