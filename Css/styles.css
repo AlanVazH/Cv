@@ -1,0 +1,24 @@
+body 
+{background-color: #EAF6F6;}
+hr 
+{border-color: grey;
+border-style: dotted none none;
+border-width: 5px;
+width: 5%;}
+h1 
+{color: #66BFBF;
+font-family: system-ui;}
+h2
+{color: #66BFBF;
+font-family: system-ui;}
+h3
+{color: #66BFBF;
+font-family: system-ui;}
+p
+{font-family: system-ui;}
+table
+{font-family: system-ui;}
+ul
+{font-family: system-ui;}
+form
+{font-family: system-ui;}
