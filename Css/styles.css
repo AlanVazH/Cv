@@ -1,5 +1,7 @@
 body 
 {background-color: #EAF6F6;}
+img
+{border-radius: 10px;}
 hr 
 {border-color: grey;
 border-style: dotted none none;
@@ -22,3 +24,47 @@ ul
 {font-family: system-ui;}
 form
 {font-family: system-ui;}
+a
+{color: black;}
+
+/***************************ID SELECTORS************************************/
+#school:hover
+{
+    color: blue;
+}
+#contact
+{
+    text-decoration: none;
+    border-radius: 5px;
+    border-style: hidden;
+    box-shadow: 0.5px 0.5px 5px rgb(139, 139, 139), -0.5px -0.25px 5px rgb(139, 139, 139) ;
+    transition: all 0.5s ease;
+}
+#contact:hover
+{
+    color: blue;
+    font-size:larger;
+}
+#insta
+{
+    border-radius: 10px;
+    transition: transform 1s ease;
+}
+#insta:hover
+{
+    border-radius: 0px ;
+    transform: scale(1.2);
+}
+#back
+{
+    text-decoration: none;
+    border-radius: 5px;
+    border-style: hidden;
+    box-shadow: 0.5px 0.5px 5px rgb(139, 139, 139), -0.5px -0.25px 5px rgb(139, 139, 139) ;
+    transition: all 0.5s ease;
+}
+#back:hover
+{
+    color: blue;
+    font-size:larger;
+}
